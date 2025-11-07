@@ -1,0 +1,12 @@
+Lab 3 
+---
+Finished all the steps : 
+1. Curated the Gold Table
+2. Registered the Gold Table
+3. Created a Fabric Workspace
+4.Loaded the Delta Table
+5.Cleaned the data (Adjust Data Types - Handle Missing or Invalid Values - Trim and Standardize Text)
+6. Used the Power Query Group By to build some derived features:
+• Average rating per BookID.
+• Number of reviews per BookID.
+• Average rating per AuthorName.
