@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      AUTHENTICATION_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
+      AUTHENTICATION_KEY: ${{ secrets.AUTHENTICATION_KEY }}
 
     steps:
       - name: Checkout repository
@@ -27,4 +27,5 @@ jobs:
 
       - name: Run Spark script
         run: |
-          python main.py   # change to your script name
+          python Ibrahim_Altan_Lab3_Notebook.py
+          # or whatever .py file you use
